@@ -1,5 +1,4 @@
 body {
-  color: #40514e;
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -25,15 +24,9 @@ h3 {
 }
 
 .middle-container {
-  background-color: red;
-  width: 100px;
-  height: 100px;
 }
 
 .bottom-container {
-  background-color: blue;
-  width: 100px;
-  height: 100px;
 }
 
 .pro {
@@ -50,4 +43,15 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #40514e;
+}
+
+.skills img {
+  width: 20%;
 }
